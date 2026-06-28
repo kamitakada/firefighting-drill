@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>バケツリレー - 対策ガイド</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="./index.html" class="header-title" style="color: var(--text-main); font-size: 1rem;">
+      ◀ 戻る
+    </a>
+    <div class="header-title">🪣 バケツリレー</div>
+  </header>
+
+  <main class="container fade-in">
+    <div class="card">
+      <h1 class="text-center" style="color: var(--primary-color);">バケツリレー競技要領</h1>
+      <p>チーム７名（指揮者１名・隊員６名）で実施します。<br>９０秒間で的の中に溜まった水量を競います！</p>
+    </div>
+
+    <h2 class="mt-lg mb-md">⏱️ 競技の流れとセリフ</h2>
+    
+    <div class="timeline">
+      <!-- STEP 1 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3 class="timeline-title">1. 入場・整列</h3>
+          <span class="role-badge role-official">係員</span>
+          <span class="role-badge role-director">指揮者</span>
+          
+          <p>係員の指示により、待機場所から集合線に整列します。</p>
+          <div class="dialogue">
+            <span class="role-director">【指揮者】</span><br>
+            「集まれ！」
+          </div>
+          <p>指揮者の号令で、隊員は開始線に移動します。</p>
+        </div>
+      </div>
+
+      <!-- STEP 2 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3 class="timeline-title">2. 番号・位置につけ</h3>
+          <span class="role-badge role-director">指揮者</span>
+          <span class="role-badge role-member">隊員</span>
+          
+          <div class="dialogue">
+            <span class="role-director">【指揮者】</span><br>
+            「番号！」
+          </div>
+          <div class="dialogue">
+            <span class="role-member">【隊員】</span><br>
+            「１・２・３・４・５・６！」
+          </div>
+          <div class="dialogue">
+            <span class="role-director">【指揮者】</span><br>
+            「位置につけ！」
+          </div>
+          <p>指揮者の号令で、隊員は停止線までバケツリレーの位置につきます。<br>※係員の警笛が鳴るまでバケツに触ってはいけません。</p>
+        </div>
+      </div>
+
+      <!-- STEP 3 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3 class="timeline-title">3. 競技開始（90秒間）</h3>
+          <span class="role-badge role-official">係員</span>
+          <span class="role-badge role-member">全隊員</span>
+          
+          <p>係員の警笛で開始します。</p>
+          <ul class="deduction-list mt-sm">
+            <li>４番員が水を汲み、リレー方式で指揮者が投水します。</li>
+            <li>水の入ったバケツは、１個のみ次の人にリレーできます。</li>
+            <li>指揮者投水後の空バケツは手渡し又は地面に置きます。</li>
+            <li>空バケツの搬送は５番員・６番員（２名）が担当します。</li>
+            <li><strong>【重要】</strong>搬送した空バケツは、必ず水槽付近の地面に置きます。手渡しは禁止です。</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- STEP 4 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3 class="timeline-title">4. 終了</h3>
+          <span class="role-badge role-official">係員</span>
+          <span class="role-badge role-director">指揮者</span>
+          
+          <p>90秒後、係員の警笛により終了します。</p>
+          <p>終了後、速やかに開始線に戻り、待機場所へ移動後、指揮者の指示で解散します。</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="card mt-lg">
+      <h2 style="color: var(--primary-color);">⚠️ 審査・減点ポイントまとめ</h2>
+      <ul class="deduction-list mt-md">
+        <li>バケツを投げるなど危険行為は、大幅な減点となります。</li>
+        <li>開始の合図がある前にバケツに触ってはいけません。</li>
+        <li>空バケツの水槽側での手渡しは禁止です（必ず地面に置く）。</li>
+        <li>水量が同じ場合は、「安全確実度」「元気度」「チームワーク」の良いチームが上位となります。掛け声を出して元気に！</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer style="text-align: center; margin-top: 2rem; padding: 1.5rem; border-top: 1px solid var(--border-color); font-size: 0.9rem; color: var(--text-muted);">
+    <p>当サイトは、中野区町会連合会の公式情報<br>
+    <a href="https://nakano-chokai.jp/info/初期消火機器操法大会%E3%80%80操法基準/" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">「初期消火機器操法大会 操法基準」</a><br>
+    を参考に作成されています。</p>
+  </footer>
+</body>
+</html>

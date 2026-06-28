@@ -1,0 +1,18 @@
+{
+  "name": "standpipe",
+  "version": "1.0.0",
+  "description": "中野区町会連合会主催の初期消火機器操法大会に向けた対策ホームページを作りたい",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}
